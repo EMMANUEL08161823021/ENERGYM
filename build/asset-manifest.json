@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.56c7d8be.css",
+    "main.js": "/static/js/main.93257c55.js",
+    "static/media/young-concentrated-athlete-woman-doing-exercises-with-dumbbell.jpg": "/static/media/young-concentrated-athlete-woman-doing-exercises-with-dumbbell.d604e9653bd07a15bebb.jpg",
+    "static/media/group-young-people-training-gym-indoors-maintaining-sportive-lifestyle.jpg": "/static/media/group-young-people-training-gym-indoors-maintaining-sportive-lifestyle.a1297684e113b20e6296.jpg",
+    "static/media/powerful-stylish-bodybuilder-with-tattoo-his-arm-doing-exercises-with-dumbbells-isolated-dark-background.jpg": "/static/media/powerful-stylish-bodybuilder-with-tattoo-his-arm-doing-exercises-with-dumbbells-isolated-dark-background.d09a1baaf59fa59596dd.jpg",
+    "static/media/close-up-portrait-lovely-young-african-american-woman-with-curly-afro-haircut-smiling-with-happy-pleasant-expression-enjoying-winter-holidays-wearing-sweater-blue-wall.jpg": "/static/media/close-up-portrait-lovely-young-african-american-woman-with-curly-afro-haircut-smiling-with-happy-pleasant-expression-enjoying-winter-holidays-wearing-sweater-blue-wall.2b4266ad0af63783b340.jpg",
+    "static/media/close-up-athlete-training.jpg": "/static/media/close-up-athlete-training.3fb9b0bbf24e73e28449.jpg",
+    "index.html": "/index.html",
+    "main.56c7d8be.css.map": "/static/css/main.56c7d8be.css.map",
+    "main.93257c55.js.map": "/static/js/main.93257c55.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56c7d8be.css",
+    "static/js/main.93257c55.js"
+  ]
+}
