@@ -1,0 +1,30 @@
+.footer-container {
+    background: black;
+    color: white;
+    .footer {
+        max-width: 1200px;
+        justify-content: space-between;
+        margin: auto;
+        padding: 30px;
+        display: flex;
+
+        .one {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            h2 {
+                color: greenyellow;
+            }
+        }
+    }
+}
+
+@media (max-width: 670px) {
+    .footer-container {
+        .footer {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

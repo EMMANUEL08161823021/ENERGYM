@@ -1,0 +1,74 @@
+[
+  {
+    "albumId": 1,
+    "id": 1,
+    "title": "Fitness Classes",
+    "paragraph": "These can range from yoga and Pilates to high-intensity interval training (HIIT), spinning, Zumba, and more.",
+    "url": "https://cdn-icons-png.flaticon.com/128/4425/4425103.png?track=ais",
+    "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+  },
+  {
+    "albumId": 1,
+    "id": 2,
+    "title": "Personal Training",
+    "paragraph": "One-on-one sessions with a certified trainer who can create personalized workout plans and provide guidance and motivation.",
+    "url": "https://cdn-icons-png.flaticon.com/128/5357/5357993.png?track=ais",
+    "thumbnailUrl": "https://via.placeholder.com/150/771796"
+  },
+  {
+    "albumId": 1,
+    "id": 3,
+    "title": "Strength Training",
+    "paragraph": "Free weights, weight machines, and functional training equipment for building strength and muscle.",
+    "url": "https://cdn-icons-png.flaticon.com/128/1422/1422930.png?track=ais",
+    "thumbnailUrl": "https://via.placeholder.com/150/24f355"
+  },
+  {
+    "albumId": 1,
+    "id": 4,
+    "title": "Nutritional Guidance",
+    "paragraph": "Some gyms offer nutrition counseling or workshops to help members achieve their fitness goals through diet.",
+    "url": "https://cdn-icons-png.flaticon.com/128/5477/5477864.png?track=ais",
+    "thumbnailUrl": "https://via.placeholder.com/150/d32776"
+  },
+  {
+    "albumId": 1,
+    "id": 5,
+    "title": "Cardio Machines",
+    "paragraph": "Treadmills, ellipticals, stationary bikes, rowing machines, etc., for cardiovascular workouts.",
+    "url": "https://cdn-icons-png.flaticon.com/128/830/830375.png?track=ais",
+    "thumbnailUrl": "https://via.placeholder.com/150/f66b97"
+  },
+  {
+    "albumId": 1,
+    "id": 6,
+    "title": "Group Exercise",
+    "paragraph": "Group workouts led by instructors, which could include anything from circuit training to boot camps.",
+    "url": "https://cdn-icons-png.flaticon.com/128/10060/10060318.png?track=ais",
+    "thumbnailUrl": "https://via.placeholder.com/150/56a8c2"
+  },
+  {
+    "albumId": 1,
+    "id": 7,
+    "title": "Recovery Services",
+    "paragraph": "Some gyms provide amenities like saunas, steam rooms, or recovery equipment like foam rollers and massage tools.",
+    "url": "https://cdn-icons-png.flaticon.com/128/9186/9186575.png?track=ais",
+    "thumbnailUrl": "https://via.placeholder.com/150/b0f7cc"
+  },
+  {
+    "albumId": 1,
+    "id": 8,
+    "title": "Specialized Programs",
+    "paragraph": "Such as programs for seniors, children, individuals with specific health conditions, or athletes looking for sports-specific training.",
+    "url": "https://cdn-icons-png.flaticon.com/128/2211/2211491.png?track=ais",
+    "thumbnailUrl": "https://via.placeholder.com/150/54176f"
+  },
+  {
+    "albumId": 1,
+    "id": 9,
+    "title": "Additional Amenities",
+    "paragraph": "Showers, lockers, towel service, and sometimes even on-site shops for fitness gear or supplements.",
+    "url": "https://cdn-icons-png.flaticon.com/128/7491/7491667.png?track=ais",
+    "thumbnailUrl": "https://via.placeholder.com/150/54176f"
+  }
+]

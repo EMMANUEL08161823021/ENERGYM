@@ -1,0 +1,35 @@
+.s-wrapper {
+    margin: 0 auto;
+    padding: 40px 0;
+    color: white;
+    background: black;
+
+    .services {
+        overflow: hidden;
+        max-width: 1200px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+
+        h1 {
+            padding: 0 20px;
+            font-size: 40px;
+            
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .s-wrapper {
+        .services {
+            h1 {
+                padding: 20px;
+                font-weight: 600;
+                line-height: 30px;
+                font-size: 35px;
+            
+            }
+        }
+    }
+}

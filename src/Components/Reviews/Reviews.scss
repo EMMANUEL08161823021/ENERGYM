@@ -1,0 +1,97 @@
+.review-wrapper {
+    background: linear-gradient(to bottom, black, rgb(36, 36, 36));
+    // border: 2px solid red;
+    padding: 30px 20px;
+    color: white;
+    // height: 100vh;
+    width: 100%;
+    .reviews {
+        position: relative;
+        max-width: 1200px;
+        margin: auto;
+        h1 {
+            font-size: 40px;
+            line-height: 40px;
+            padding: 10px 0;
+
+        }
+        .review-image {
+            position: relative;
+            overflow: hidden;
+            border-radius: 20px;
+            // height: 80vh;
+            width: 100%;
+            // border: 2px solid red;
+
+            &>img {
+                margin-top: -70px;
+                width: 100%;
+                object-fit: contain;
+                // border: 2px solid red;
+            }
+        }
+        .opinions {
+            // border: 2px solid blue;
+            position: absolute;
+            right: 40px;
+            bottom: 40px;
+            background-color: greenyellow;
+            border-radius: 20px;
+            height: 250px;
+            width: 400px;
+        }
+    }
+}
+@media (max-width: 730px) {
+    .review-wrapper {
+        height: fit-content;
+        .reviews {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            h1 {
+    
+            }
+            .review-image {
+                height: 60vh;
+                // border: 2px solid red;
+    
+                &>img {
+                    margin-top: 0;
+                    width: 100%;
+                    // border: 2px solid blue;
+                    height: 30vh;
+
+                }
+            }
+            .opinions {
+                width: 100%;
+                position: absolute;
+                right: 0;
+                margin: auto;
+                bottom: 0;
+                
+
+            }
+        }
+    }
+}
+@media (max-width: 500px) {
+    .review-wrapper {
+        .reviews {
+            h1 {
+                font-weight: 600;
+                line-height: 30px;
+                white-space: wrap;
+                padding-bottom: 10px;
+                font-size: 35px;        
+            }
+            .opinions {
+                // border: 2px solid blue;
+                position: absolute;
+                font-size: 10px;
+
+            }
+        }
+    }
+}

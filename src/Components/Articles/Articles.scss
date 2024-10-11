@@ -1,0 +1,141 @@
+.articles {
+    display: flex;
+    flex-direction: column;
+
+    .article-container {
+        padding: 10px 0;
+        width: 100%;
+        margin: 20px 0;
+        padding: 10px 0;
+        justify-content: space-around;
+        display: flex;
+
+        .details {
+            overflow: hidden;
+            width: 32%;
+            display: flex;
+            flex-direction: column;
+            border: 2px solid #ffffff;
+            background: black;
+            padding: 10px;
+            text-align: left;
+
+            &>img {
+                border-radius: 8px;
+            }
+            h2 {
+                background: greenyellow;
+                color: black;
+                text-align: center;
+                padding: 10px 0;
+                line-height: 20px;
+                // border: 2px solid red;
+            }
+
+            h5 {
+                color: greenyellow;
+                margin: 5px 0;
+                text-align: center;
+            }
+            span {
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                gap: 4px;
+                justify-content: center;
+                border: 1px solid white;
+                font-weight: 700;
+            }
+        }
+
+    }
+    .reactpaginate {
+        width: 100%;
+        justify-content: center;
+        // border: 2px solid red;
+        display: flex;
+
+        .paginateButton {
+            display: flex;
+            gap: 10px;
+            // border: 2px solid red;
+
+        }
+        .paginateButton > * {
+            cursor: pointer;
+            list-style: none;
+            border: 1px solid greenyellow;
+            background: transparent;
+            font-size: large;
+            color: greenyellow;
+            border-radius: 5px;
+            padding: 10px;
+
+        }
+    }
+}
+@media (max-width: 650px) {
+    .articles {
+        .article-container {
+            height: fit-content;
+            .details {
+                width: 70%;
+            }
+        }
+    }
+
+}
+@media (max-width: 550px) {
+    .articles {
+        .article-container {
+            height: fit-content;
+            .details {
+                overflow: hidden;
+                display: flex;
+                flex-direction: column;
+                border: 2px solid white;
+                padding: 20px;
+    
+                &>img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 8px;
+                }
+                h2 {
+                    font-size: 24px;
+                    white-space: wrap;
+                }
+    
+                h5 {
+                    color: greenyellow;
+                }
+            }
+
+        }
+        .reactpaginate {
+            width: 100%;
+            overflow: scroll;
+
+   
+            .paginateButton {
+                list-style: none;
+                // border: 1px solid red;
+                display: flex;
+                gap: 10px;
+    
+    
+            }
+            .paginateButton> * {
+                font-size: medium;
+                color: greenyellow;
+                border-radius: 5px;
+                cursor: pointer;
+                padding: 5px;
+            }
+    
+        }
+        .reactpaginate::-webkit-scrollbar {
+            display: none;
+        }
+    }
+}

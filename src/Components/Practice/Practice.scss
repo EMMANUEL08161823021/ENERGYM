@@ -1,0 +1,44 @@
+.practice {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 35px;
+        input {
+            opacity: 0;
+            height: 0;
+            width: 0;
+    
+        }
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            background-color: blue;
+    
+        }
+        .slider::before {
+            position: absolute;
+            content: '';
+            width: 28px;
+            height: 27px;
+            background-color: red;
+            left: 4px;
+            bottom: 4px;
+        }
+        input:checked + .slider::before {
+            transform: translateX(25px);
+        }
+    }
+    
+
+}

@@ -1,0 +1,94 @@
+.news {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color: black;
+    .news-container {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        gap: 30px;
+        padding: 0 15px;
+        // border: 2px solid red;
+
+        p {
+            text-transform: uppercase;
+            font-weight: 600;
+            line-height: 30px;
+            font-size: 30px;
+        }
+        .paginate {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            .person {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                &>img {
+                    border-radius: 50%;
+                    height: 40px;
+                    width: 40px;
+                }
+            }
+        }
+        .reactpaginate {
+            display: flex;
+            gap: 10px;
+            cursor: pointer;
+            // border: 1px solid red;
+
+            a.previousBtn {
+                font-size: larger;
+                font-weight: 700;
+            }
+            a.nextBtn {
+                font-size: larger;
+                font-weight: 700;
+            }
+
+        }
+        .reactpaginate>:nth-child(2) {
+            display: none;
+        }
+        .reactpaginate>:nth-child(3) {
+            display: none;
+        }
+        .reactpaginate>:nth-child(4) {
+            display: none;
+        }
+        .reactpaginate>:nth-child(5) {
+            display: none;
+        }
+        
+        .reactpaginate >* {   
+                  
+            display: flex;
+            margin: auto; 
+            padding: 2px;
+            overflow: hidden;
+            list-style: none;
+            border: 2px solid black;
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+
+        }
+    }
+}
+@media (max-width: 500px) {
+    .news {
+        .news-container {
+            p {
+                line-height: 30px;
+                font-size: 24px;
+            }
+
+            .reactpaginate >* {
+                font-size: 15px;
+    
+            }
+        }
+    }
+}

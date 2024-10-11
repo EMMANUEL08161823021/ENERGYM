@@ -1,0 +1,60 @@
+.coach {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(36, 36, 36);
+    color: white;
+    height: fit-content;
+    width: 100%;
+    padding: 30px 20px;
+    .coach-container{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        h1 {
+            white-space: wrap;
+            font-size: 40px;
+
+            .undo {
+                display: none;
+            }
+        }
+        p {
+            width: 80%;
+
+        }
+    }
+}
+
+@media (max-width: 868px) {
+    .coach {
+        .coach-container {
+            p {
+                width: 100%;
+        
+            }
+
+        }
+    }
+   
+
+}
+@media (max-width: 500px) {
+    .coach {
+        .coach-container {
+            h1 {
+                font-weight: 600;
+                line-height: 30px;
+                padding-bottom: 10px;
+                font-size: 35px;  
+                white-space: wrap;   
+                
+
+            }
+
+
+        }
+    }
+   
+
+}

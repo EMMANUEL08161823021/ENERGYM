@@ -1,0 +1,122 @@
+.photo {
+    display: flex;
+    flex-direction: column;
+    .picture-container {
+        margin: 20px 0;
+        padding: 10px 0;
+        width: 100%;
+        justify-content: space-around;
+        display: flex;     
+
+        .details {
+            overflow: hidden;
+            width: 32%;
+            display: flex;
+            flex-direction: column;
+            border: 2px solid white;
+            padding: 10px;
+
+            &>img {
+                border-radius: 8px;
+            }
+
+            h5 {
+                color: greenyellow;
+            }
+        }
+    }
+    .reactpaginate {
+        // border: 2px solid red;
+        display: flex;
+        justify-content: center;
+
+        .paginateButton {
+            list-style: none;
+            // border: 1px solid red;
+            display: flex;
+            gap: 15px;
+
+
+        }
+        .paginateButton> * {
+            border: 1px solid greenyellow;
+            background: transparent;
+            font-size: large;
+            color: greenyellow;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 10px;
+        }
+
+    }
+}
+
+@media (max-width: 650px) {
+    .photo {
+        .picture-container {
+            display: flex;
+            height: fit-content;
+            width: 100%;
+            .details {
+                width: 70%;
+                h2 {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 550px) {
+
+    .photo {
+        .picture-container {
+            height: fit-content;
+    
+            .details {
+                overflow: hidden;
+                display: flex;
+                flex-direction: column;
+                border: 2px solid white;
+                padding: 10px;
+    
+                &>img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 8px;
+                }
+    
+                h5 {
+                    color: greenyellow;
+                }
+            }
+        }
+        .reactpaginate {
+            width: 100%;
+            overflow: scroll;
+
+   
+            .paginateButton {
+                list-style: none;
+                // border: 1px solid red;
+                display: flex;
+                gap: 10px;
+    
+    
+            }
+            .paginateButton> * {
+                font-size: medium;
+                color: greenyellow;
+                border-radius: 5px;
+                cursor: pointer;
+                padding: 5px;
+            }
+    
+        }
+        .reactpaginate::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
+}

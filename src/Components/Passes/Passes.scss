@@ -1,0 +1,44 @@
+.gym-wrapper {
+    background: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    // border: 3px solid red;
+    height: fit-content;
+    color: white;
+    padding: 20px 0;
+
+    .passes {
+        max-width: 1200px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // border: 2px solid green;
+
+        h1 {
+            font-size: 40px;
+        }
+    }
+}
+
+@media (max-width: 868px) {
+    .gym-wrapper {
+        width: 100%;
+        height: fit-content;
+    }
+}
+@media (max-width: 500px) {
+    .gym-wrapper {
+        .passes {
+            h1 {
+                font-weight: 600;
+                line-height: 30px;
+                white-space: wrap;
+                padding-bottom: 10px;
+                font-size: 35px;        
+            }
+        }
+    }
+}

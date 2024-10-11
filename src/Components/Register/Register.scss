@@ -1,0 +1,133 @@
+.register {
+    width: 100%;
+    margin: auto;
+    .color {
+        display: flex;
+        justify-content: center;
+
+        .active {
+            color: white;  
+        }
+
+        .show {
+            color: greenyellow;
+        }
+
+    }
+
+
+    .switch{
+        position: relative;
+        display: inline-block;
+        border: 2px solid white;
+        background-color: greenyellow;
+        overflow: hidden;
+        border-radius: 10px;
+        width: 60px;
+        margin: 10px 0;
+        height: 30px;
+
+        input {
+            opacity: 0;
+            height: 0;
+            width: 0;
+        }
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            right: 0;
+            color: white;
+            height: 26px;
+            width: 40px;
+            left: 0;
+            right: 0;
+        }
+        .slider::before {
+            position: absolute;
+            content: '';
+            height: 26px;
+            color: white;
+            width: 28px;
+            background-color: black;
+            border-radius: 50%;
+            left: 2px;
+            // bottom: 4px;
+
+        }
+        input:checked + .slider::before {
+            transform: translateX(26px);
+        }
+    }
+    .plans {
+        display: flex;
+        width: 100%;
+        max-width: 1200px;
+        // margin: auto;
+        justify-content: space-between;
+        // border: 2px solid red;
+        
+        .plan {
+            width: 33%;
+            padding: 10px 0;
+            border: 2px solid greenyellow;
+
+            h1 {
+                span {
+                    font-size: 20px;
+                }
+            }
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                list-style: none;
+                gap: 15px;
+
+                li {
+                    display: flex;
+                    white-space: nowrap;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 auto;
+                    gap: 10px;
+
+                }
+                
+                .wrap {
+                    white-space: wrap;
+                }
+            }
+            .buttons {
+                button {
+                    padding: 10px;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    font-weight: 700;
+                    background: greenyellow;
+                    border-color: transparent;
+                    margin: 10px 0;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 868px) {
+    .register {
+        height: 100%;
+        width: 100%;
+        .plans {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            // border: 2px solid red;
+
+            .plan {
+                width: 70%;
+            }
+        }
+    }
+}
