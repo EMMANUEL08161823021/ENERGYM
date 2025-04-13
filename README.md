@@ -30,8 +30,6 @@ ENERGYM is a user-friendly fitness web application designed to help users achiev
 - **MongoDB** (with Mongoose)
 - **JWT** for authentication
 - **Cloudinary** for profile image uploads
-- **Socket.io** for real-time chat (optional)
-
 ---
 
 ## 🧑‍💻 User Roles
